@@ -1,4 +1,3 @@
-// src/components/PostDetailsPage.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -34,6 +33,7 @@ const posts = [
     imageUrl: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=1080&fit=max' 
   },
 ];
+
 
 const PostDetailsPage = () => {
   const { id } = useParams();

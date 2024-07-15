@@ -10,7 +10,7 @@ const PostList = () => {
     // Fetch posts from an API or define them statically for now
     const fetchPosts = async () => {
       // Mock data; replace with actual API call
-      const postsData = [
+      const posts = [
         { 
           id: 1, 
           title: 'Exploring the World of Machine Learning', 
@@ -42,8 +42,8 @@ const PostList = () => {
           imageUrl: 'https://images.unsplash.com/photo-1542903660-eedba2cda473?q=80&w=1080&fit=max' 
         },
       ];
-
-      setPosts(postsData);
+      
+      setPosts(posts);
     };
 
     fetchPosts();
